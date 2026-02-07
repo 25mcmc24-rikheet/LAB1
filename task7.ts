@@ -17,7 +17,7 @@ interface ErrorResponse {
     message: string;
 }
 
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "e88a8b49ea1acf43fa3361e94b9c4979";
 
 getWeatherBtn.addEventListener("click", () => {
     const city = cityInput.value.trim();
@@ -62,4 +62,5 @@ function displayWeather(data: WeatherResponse): void {
         <p>Humidity: ${humidity} %</p>
         <p>Condition: ${description}</p>
     `;
+
 }
