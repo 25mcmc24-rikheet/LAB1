@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>AI for Everyone</title>
+        <author>Andrew Ng</author>
+        <genre>Artificial Intelligence</genre>
+        <price>480</price>
+        <date>2018-04-10</date>
+    </book>
+
+    <book>
+        <title>Hands-On Machine Learning</title>
+        <author>Aurelien Geron</author>
+        <genre>Machine Learning</genre>
+        <price>720</price>
+        <date>2019-03-15</date>
+    </book>
+
+    <book>
+        <title>Neural Networks and Deep Learning</title>
+        <author>Michael Nielsen</author>
+        <genre>Deep Learning</genre>
+        <price>560</price>
+        <date>2015-12-01</date>
+    </book>
+
+    <book>
+        <title>Introduction to Artificial Intelligence</title>
+        <author>Philip C. Jackson</author>
+        <genre>Artificial Intelligence</genre>
+        <price>500</price>
+        <date>2019-09-19</date>
+    </book>
+
+</catalog>
