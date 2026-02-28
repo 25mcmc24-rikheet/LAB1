@@ -1,0 +1,37 @@
+{
+  "formName": "User Registration",
+  "elements": [
+    { "type": "text", "label": "Full Name", "id": "fullName", "required": true },
+    { "type": "email", "label": "Email Address", "id": "emailId", "required": true },
+    { "type": "password", "label": "Password", "id": "password", "required": true },
+    { "type": "date", "label": "Date of Birth", "id": "dob", "required": true },
+    { "type": "text", "label": "Mobile Number", "id": "mobile", "required": true },
+    {
+      "type": "select",
+      "label": "Country",
+      "id": "country",
+      "options": [
+        "India",
+        "USA",
+        "Canada",
+        "Australia",
+        "United Kingdom"
+      ],
+      "required": true
+    },
+    {
+      "type": "select",
+      "label": "State",
+      "id": "state",
+      "required": true
+    }
+  ],
+
+  "countryStates": {
+    "India": ["Kerala", "Telangana", "Odisha", "Punjab", "Gujarat"],
+    "USA": ["California", "Texas", "Florida", "New York", "Nevada"],
+    "Canada": ["Ontario", "Quebec", "Alberta", "Manitoba", "Nova Scotia"],
+    "Australia": ["Victoria", "Queensland", "Tasmania", "Western Australia"],
+    "United Kingdom": ["England", "Scotland", "Wales", "Northern Ireland"]
+  }
+}

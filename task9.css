@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 420px;
+}
+
+.form-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.field-section {
+    margin-bottom: 18px;
+}
+
+.field-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.field-section input,
+.field-section select {
+    width: 100%;
+    padding: 9px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+}
+
+.field-section input:focus,
+.field-section select:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+.error-text {
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+}
+
+.success-message {
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a67d8;
+}
