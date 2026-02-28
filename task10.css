@@ -1,0 +1,43 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f8f9fa;
+    padding: 40px;
+}
+
+.tab-wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+.nav-tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 3px solid #ddd;
+}
+
+.nav-tabs li {
+    padding: 12px 25px;
+    cursor: pointer;
+    background: #e9ecef;
+    margin-right: 6px;
+    border-radius: 6px 6px 0 0;
+    transition: 0.3s;
+}
+
+.nav-tabs li.current {
+    background: #ffffff;
+    font-weight: bold;
+    color: #0d6efd;
+    border: 1px solid #ddd;
+    border-bottom: 3px solid white;
+}
+
+.content-panel {
+    display: none;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 0 6px 6px 6px;
+    background: white;
+}
+

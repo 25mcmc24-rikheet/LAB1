@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom jQuery Tabs Plugin</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="task10.js"></script>
+    <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+
+<div class="tab-wrapper" id="customTabs">
+
+    <ul class="nav-tabs">
+        <li data-target="#section1" tabindex="0">Home</li>
+        <li data-target="#section2" tabindex="0">About</li>
+        <li data-target="#section3" tabindex="0">Contact</li>
+    </ul>
+
+    <div class="content-area">
+
+        <div id="section1" class="content-panel">
+            <h2>Home</h2>
+            <p>Welcome to the homepage section of this tab plugin demonstration.</p>
+        </div>
+
+        <div id="section2" class="content-panel">
+            <h2>About</h2>
+            <p>Name: Rikheet Kumar</p>
+            <p>Course: Internet Technology</p>
+            <p>University: University of Hyderabad</p>
+        </div>
+
+        <div id="section3" class="content-panel">
+            <h2>Contact</h2>
+            <p>Email: rikheet@email.com</p>
+            <p>Phone: 7205597781</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    $("#customTabs").advancedTabs({
+        activeClass: "current",
+        animationSpeed: 300,
+        defaultTab: "#section1"
+    });
+</script>
+
+</body>
+</html>
